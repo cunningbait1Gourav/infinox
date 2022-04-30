@@ -1,0 +1,43 @@
+.nav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.bet{
+    justify-content: space-between;
+    padding:10px;
+    z-index: 9999;
+}
+.pad{
+    padding-left:10px;
+    padding-right:10px;
+    z-index: 9999;
+    text-decoration: none;
+}
+.pad:hover{
+    transition: text-decoration 0.4s;
+    text-decoration: underline;
+}
+.logo{
+    z-index: 9999;
+}
+.landing-text{
+    font-size: 4rem;
+    position: relative;
+    bottom:60%;
+    z-index: 9999;
+}
+.landing-text2{
+    font-size: 1.25rem;
+    position:relative;
+    bottom:60%;
+    z-index: 9999;
+}
+.landing-text>span{
+    color:cadetblue
+}
+@media screen and(max-width:300px) {
+    
+}

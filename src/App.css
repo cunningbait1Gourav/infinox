@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;700;900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Landing{
+  width:95%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin-left:2.5%;
+  margin-top:20px;
+  height:100vh;
+  background-image: url('../public/photos/download-1.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  color:rgb(244, 244, 247);
+}
+.Gradient{
+  height: 100vh;
+  background-color: black;
+  opacity:70%;
+  z-index: 2;
+  position: relative;
+  bottom:7%;
+}
+.pad-btn{
+  margin-right:50px;
+}
+Button{
+  position:relative;
+  bottom:50%;
+  font-size: 3rem;
+  z-index: 9999;
+}
+.headings{
+  font-family: 'Cairo', sans-serif;
+  font-size: 5rem;
+  padding-top:90px;
+  color:#282c34;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.h-2{
+transform: translateX(-400px)
+}
+.para{
+  width:600px;
+  padding-left: 120px;
+}
+.pic-2{
+  width:400px;
+  height:auto;
+  transform: translate(350px, -350px)
+}
+.positioned{
+  position: relative;
+  bottom:100px;
+}
+.tweet{
+  width:350px;
+  height:450px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 100px;
+  border-color:#61dafb;
+  border-width: 2.5px;
+}
+.tweet-img{
+  margin-top: 20px;
+}
